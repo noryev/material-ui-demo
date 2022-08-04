@@ -14,6 +14,18 @@ const App = () => {
                     </Typography>
                 </Toolbar>
             </AppBar>
+            <main>
+                <div>
+                    <Container maxWidth="sm">
+                        <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
+                            Photo Album
+                        </Typography>
+                        <Typography variant="h5" align="center" color="textSecondary" paragraph>
+                            Hello everyone, this is a photo ablum and I'm trying to make this sentence as long as possible to test to see what the sentence looks like on the screen
+                        </Typography>
+                    </Container>
+                </div>
+            </main>
       </>
     );
 }
