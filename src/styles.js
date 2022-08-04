@@ -13,7 +13,7 @@ const useStyles = makeStyles (( theme ) => ({
 
     },
     buttons: {
-
+        marginTop: '40px'
 
     }
 }));
