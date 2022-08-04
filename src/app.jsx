@@ -13,7 +13,7 @@ const App = () => {
                 <Toolbar>
                     <PhotoCamera />
                     <Typography variant="h6">
-                        Photo Album
+                        IPFS Photo Album
                     </Typography>
                 </Toolbar>
             </AppBar>
