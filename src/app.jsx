@@ -13,7 +13,7 @@ const App = () => {
             <CssBaseline />
             <AppBar position="relative">
                 <Toolbar>
-                    <PhotoCamera />
+                    <PhotoCamera className={classes.icon} />
                     <Typography variant="h6">
                         IPFS Photo Album
                     </Typography>
@@ -28,7 +28,7 @@ const App = () => {
                         <Typography variant="h5" align="center" color="textSecondary" paragraph>
                             Hello everyone, this is a photo ablum and I'm trying to make this sentence as long as possible to test to see what the sentence looks like on the screen
                         </Typography>
-                        <div>
+                        <div className={classes.button}>
                             <Grid container spacing={2} justify="center">
                                 <Grid item>
                                     <Button variant="contained" color="primary">
