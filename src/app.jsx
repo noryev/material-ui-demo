@@ -1,6 +1,8 @@
 import React from 'react';
 import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
 import { PhotoCamera } from '@material-ui/icons';
+import { Button } from '@mui/material/Button';
+import { ButtonGroup } from '@mui/material/ButtonGroup';
 
 const App = () => {
     return (
@@ -25,6 +27,11 @@ const App = () => {
                         </Typography>
                     </Container>
                 </div>
+                <ButtonGroup variant="outlined" aria-label="outlined button group">
+                    <Button>One</Button>
+                    <Button>Two</Button>
+                    <Button>Three</Button>
+                </ButtonGroup>
             </main>
       </>
     );
