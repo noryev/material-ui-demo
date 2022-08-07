@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "ipfs-http-client": "^57.0.3",
     "material-ui": "^1.0.0-beta.47",
+    "nft.storage": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
