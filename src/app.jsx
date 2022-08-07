@@ -1,12 +1,8 @@
 import React from 'react';
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
 import { PhotoCamera } from '@material-ui/icons';
+
 import useStyles from './styles';
-
-const useStyles = makeStyles (() => ({
-
-}));
-
 
 
 const App = () => {
@@ -23,7 +19,7 @@ const App = () => {
                 </Toolbar>
             </AppBar>
             <main>
-                <div className={classes.container}>
+                <div className='classes.container'>
                     <Container maxWidth="sm">
                         <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
                             Photo Album
