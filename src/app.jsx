@@ -45,7 +45,7 @@ const App = () => {
                     </Container>
                 </div>
                 <Container className = {classes.cardGrid} maxWidth="md">
-                    <Grid> container spacing={4}>
+                    <Grid container spacing={4}>
                         <Grid item>
                             <Card className={classes.card}>
                                 <CardMedia
@@ -55,9 +55,16 @@ const App = () => {
                                 />
                                 <CardContent className= {classes.cardContent}>
                                     <Typography gutterButtom variant="h5">
-                                        
+                                        Heading
+                                    </Typography>
+                                    <Typography>
+                                        This is a media card. You can use this section to describe the content.
                                     </Typography>
                                 </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary">View</Button>
+                                    <Button size="small" color="primary">Edit</Button>
+                                </CardActions>
                             </Card>
                         </Grid>
                     </Grid>
