@@ -3,6 +3,7 @@ import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, 
 import { PhotoCamera } from '@material-ui/icons';
 import  useStyles  from './styles';
 
+const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 const App = () => {
     const classes = useStyles();
@@ -44,17 +45,18 @@ const App = () => {
                         </div>
                     </Container>
                 </div>
-                <Container className = {classes.cardGrid} maxWidth="md">
+                <Container className={classes.cardGrid} maxWidth="md">
                     <Grid container spacing={4}>
-                        <Grid item>
+                        {cards.map(() => (
+                            <Grid item>
                             <Card className={classes.card}>
                                 <CardMedia
                                     className={classes.cardMedia}
                                     image="https://source.unsplash.com/random"
-                                    title="image Title"
+                                    title="Image Title"
                                 />
-                                <CardContent className= {classes.cardContent}>
-                                    <Typography gutterButtom variant="h5">
+                                <CardContent className={classes.cardContent}>
+                                    <Typography gutterBottom variant="h5">
                                         Heading
                                     </Typography>
                                     <Typography>
@@ -67,9 +69,13 @@ const App = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
-                    </Grid>
+                            
 
+                        ))}
+                        
+                    </Grid>
                 </Container>
+        
             </main>
       </>
     );
