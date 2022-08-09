@@ -70,10 +70,6 @@ const App = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
-                            
-
-                        
-                        
                     </Grid>
                 </Container>
         
