@@ -51,11 +51,10 @@ const App = () => {
                         <Grid item>
                             <Card className={classes.card}>
                                 <CardMedia
-                                    className={classes.cardMedia}
-                                    image="https://source.unsplash.com/random"
-                                    title="Image Title"
-                        />
-                        
+                                    className= {classes.cardMedia}
+                                    image= "https://source.unsplash.com/random"
+                                    title= "Image Title"
+                                />
                                 <CardContent className={classes.cardContent}>
                                     <Typography gutterBottom variant="h5">
                                         Heading
@@ -68,6 +67,7 @@ const App = () => {
                                     <Button size="small" color="primary">View</Button>
                                     <Button size="small" color="primary">Edit</Button>
                                 </CardActions>
+                                <><console className="log"></console></>
                             </Card>
                         </Grid>
                     </Grid>
