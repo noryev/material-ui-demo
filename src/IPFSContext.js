@@ -39,3 +39,6 @@ export function IPFSContextProvider(props) {
 export function useIPFS() {
   return useContext(IPFSContext);
 }
+
+
+// figure out console.log for this part too- 
