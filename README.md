@@ -1,8 +1,8 @@
 # Getting Started with adding IPFS into a React UI (with MaterialUI)
 
-maybe import web3.storage tools and try some of those funcions
+Start by importing web3.storage tools and try some of those example functions-
 
-Put you api key inside a .env file like =X.
+Put you API-key inside a .env file like = X.
 
 ## Getting Started
 
