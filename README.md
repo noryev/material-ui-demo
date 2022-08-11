@@ -2,7 +2,7 @@
 
 Start by importing web3.storage tools and try some of those example functions-
 
-Put you API-key inside a .env file like = X.
+Put you api key inside the env file.
 
 ## Getting Started
 
