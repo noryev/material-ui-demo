@@ -26,7 +26,7 @@ const App = () => {
                             Photo Album
                         </Typography>
                         <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                            Hello everyone, this is a photo ablum and I'm trying to make this sentence as long as possible to test to see what the sentence looks like on the screen
+                            Hello everyone, this is a simple gallery app thats a serves as a practice for integrating a React UI with IPFS / web3.storage 
                         </Typography>
                         <div className={classes.buttons}>
                             <Grid container spacing={2} justify="center">
