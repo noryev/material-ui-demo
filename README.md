@@ -9,3 +9,4 @@ Put you api key inside a .env file like =X.
 npm install
 
 npm start
+
